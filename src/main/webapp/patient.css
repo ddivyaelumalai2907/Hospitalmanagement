@@ -1,0 +1,71 @@
+@charset "ISO-8859-1";
+
+body{
+	
+	font-family:"Brush Script MT",cursive;
+}
+.l{
+	position:absolute;
+	left:40%;
+	top:5%;
+	font-size:30px;
+}
+
+#r{
+	position:absolute;
+	left:60%;
+	top:19%;
+}
+
+.f{
+	position :absolute;
+	left:32%;
+	top:9%;
+	box-shadow:0 0 5px 0;
+	background:inherit;
+	border:3px solid black;
+	padding:105px 105px;
+}
+
+input[type=text]
+input[type=password]{
+	width:100%;
+	padding:12px 20px;
+	margin:8px 0;
+	display:inline-block;
+	border:1px solid #ccc;
+	box-sizing:border-box;
+}
+
+button{
+	padding:13px 20px;
+	margin:8px 0;
+	border:none;
+	cursor:pointer;
+	width:100%;
+	background-color:#48873d;
+}
+.container{
+	background-color:#f1f1f1;
+	text-align:center;
+	width:45%;
+	position:absolute;
+	top:90%;
+	left:50%;
+}
+
+.c{
+	background-color:#f1f1f1;
+	text-align:center;
+	width:40%;
+	position:absolute;
+	top:90%;
+	left:26%;
+	padding:20px;
+}
+.cancel{
+	position:absolute;
+    left:40%;
+	width:auto;
+	background-color:red;
+}

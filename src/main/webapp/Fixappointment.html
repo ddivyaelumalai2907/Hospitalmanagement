@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Appointment</title>
+<link href="doctorreg.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class=l1>
+<h3>Appointment</h3>
+</div>
+<div class="f">
+<form action="patient" method="post">
+<label>UserName</label><br>
+<input type="text" placeholder="Enter Username" name="uname" required><br><br>
+<label>Password</label><br>
+<input type="password" placeholder="Enter password" name="psw" required><br><br>
+<label>Email id</label><br>
+<input type="email" placeholder="Enter email id" name="email" required><br><br>
+<label>Phone number</label><br>
+<input type="number" placeholder="Enter a vaild phone number " name="phone" required><br><br>
+<label>Blood group</label><br>
+<input type="text" placeholder="Enter blood group" name="blood" required><br><br>
+<label>Age</label><br>
+<input type="number" placeholder="Enter your age" name="age" required><br><br>
+<label>Appontment date</label><br>
+<input type="date" placeholder="Enter the date of your appointment" name="ad" required/><br><br>
+<label>Disease</label><br>
+<input type="text" placeholder="Enter your disease" name="disease" required><br><br>
+<label>Doctor id</label><br>
+<input type="number" placeholder="Enter the id of required specialist by refering below" name="did"><br>
+<textarea rows="5" cols="25">101-general medicine&#13;&#10;102-cardiologist&#13;&#10;103-neurologist&#13;&#10;104-gynaecologist&#13;&#10;105-oncologist</textarea> <br><br>
+<label>Status</label><br>
+<input type="text" placeholder="Enter your status" name="sat"><br><br>
+<button onclick="patient.java" >Login</button><br><br>
+</form>
+<form action="welcome.html">
+<button  onclick="welcome.html" class="cancel1">Cancel</button>
+</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>ADDSTAFF</title>
+<link href="doctorreg.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div>
+<h3 class="k">ADD STAFF</h3>
+<form class="f1" action="Addstaff" method="post">
+<label>Id</label><br>
+<input type="text"  placeholder="Enter the staff id" name = "sid"><br><br>
+<label>Name</label><br>
+<input type="text" placeholder="Enter staff name" name = "sname"><br><br>
+<label>Designation</label><br>
+<select name="stypes" >
+<option>Nurse</option>
+<option>Therapist</option>
+<option>Patient care Technician</option>
+<option>Dietician</option>
+<option>Social workers</option>
+</select> <br><br>
+<label>Email id</label><br>
+<input type="email" placeholder="Enter staff mail id" name="smail"><br><br>
+<label>Join Date</label><br>
+<input type="date" name="sjd"><br><br>
+<label>shift</label><br>
+<select name="sshift">
+<option>General</option>
+<option>Night</option>
+<option>Rotational</option>
+</select><br><br>
+<label>Qualification</lable><br>
+<input type="text" placeholder="Enter qualification of staff" name="quali"><br><br>
+<label>Salary</lable><br>
+<input type="number" placeholder="Enter staff salary" name="sal"><br><br>
+<button onclick="Addstaff.java">ADD</button>
+</form>
+</div>
+</body>
+</html>

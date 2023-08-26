@@ -1,0 +1,9 @@
+@charset "ISO-8859-1";
+body{
+	font-family:"Brush Script MT",cursive;
+}
+button{
+	background-color:black;
+	color:#ffff80;
+	padding:10px;
+}

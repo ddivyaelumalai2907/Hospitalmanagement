@@ -1,0 +1,55 @@
+@charset "ISO-8859-1";
+
+body{
+	background-color:#68aa55;
+	color:white;
+	font-family:"Brush Script MT",cursive;
+}
+
+h2{
+	position:absolute;
+	left:24%;
+}
+
+
+#c{
+	position:absolute;
+	top:20%;
+	left:25%;
+}
+
+#c1{
+	position:absolute;
+	top:47%;
+	left:28%;
+}
+#d{
+	position:absolute;
+	top:20%;
+	left:45%;
+}
+
+#d1{
+	position:absolute;
+	top:47%;
+	left:48%;
+}
+
+#e{
+	position:absolute;
+	top:20%;
+	left:65%;
+}
+
+#e1{
+	position:absolute;
+	top:46%;
+	left:66%;
+}
+a{
+	text-decoration:none;
+}
+
+img{
+	border-radius:50%;
+}

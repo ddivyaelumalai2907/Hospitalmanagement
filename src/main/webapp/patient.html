@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>USERLOGIN</title>
+<link href="patient.css"  rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class=l>
+<h3>User Login</h3>
+</div>
+<div class="f">
+<form action = "patientvalidation" method="post" >
+<label>UserName</label><br>
+<input type="text" placeholder="Enter Username" name="uname" required><br><br>
+<label>Password</label><br>
+<input type="password" placeholder="Enter password" name="psw" required><br><br>
+<label>Contact number</label><br>
+<input type="number" placeholder="Enter contact number" name="phone" required><br><br> 
+<button onclick="patientvalidation.java">Login</button><br><br>
+</form>
+<form action="welcome.html">
+<button  onclick="welcome.html" class="cancel">Cancel</button>
+</form>
+</div>
+<div class="c">
+<label >Don't have an account </label><a href="appointment.html">create one</a>
+</div>
+</body>
+</html>

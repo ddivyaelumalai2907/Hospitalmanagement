@@ -1,0 +1,140 @@
+@charset "ISO-8859-1";
+
+body{
+	background-color:#68aa55;
+	color:#ffffff;
+	font-family:"Brush Script MT",cursive;
+}
+h1{
+	margin-left:10%;
+	margin-right:auto;
+	font-size:70px;
+	font-family:"Brush Script MT",cursive;
+}
+#l{
+	position:absolute;
+	top:0%;
+	left:71%;
+	color:#000080;
+    font-size:25px;
+	
+}
+
+.contact{
+	position:absolute;
+	top:22%;
+	left:16%;
+}
+#c{
+	position:absolute;
+	top:25%;
+	left:18%;
+}
+
+.iv{
+	
+	margin-left:10%;
+	margin-right:auto;
+	margin-top:5%;
+	width:40%;
+}
+
+.b1{
+	position:absolute;
+	top:10%;
+	left:74%;
+	padding:20px;
+	border-radius:15px;
+	font-family:"Brush Script MT",cursive;
+}
+
+.b1:hover{
+	border-color:black;
+	background-color:gray;
+	
+}
+
+.b2{
+	position:absolute;
+	top:20%;
+	left:74%;
+	padding:20px;
+	border-radius:15px;
+	font-family:"Brush Script MT",cursive;
+}
+
+.b2:hover{
+	border-color:black;
+	background-color:gray;
+	
+}
+
+h2{
+	font-family:"Brush Script MT",cursive;
+	position:absolute;
+	top:40%;
+	left:67%;
+}
+
+.i{
+	border-radius:50%;
+}
+h2{
+	position:absolute;
+	top:33%;
+}
+
+#i1{
+	position:absolute;
+	left:61%;
+	top:50%;
+	border-style:solid #400040;
+	border-radius:50%;
+	display:inline-block;
+	background-color:black;
+}
+
+#i2{
+	position:absolute;
+	left:85%;
+	top:50%;
+	border-style:solid #400040;
+	border-radius:50%;
+	display:inline-block;
+	background-color:black;
+}
+
+#i3{
+	position:absolute;
+	left:61%;
+	top:73%;
+	border-style:solid #400040;
+	border-radius:50%;
+	display:inline-block;
+	background-color:black;
+}
+
+#i4{
+	position:absolute;
+	left:85%;
+	top:73%;
+	border-style:solid #400040;
+	border-radius:50%;
+	display:inline-block;
+	background-color:black;
+}
+
+#i5{
+	position:absolute;
+	left:73%;
+	top:63%;
+	border-style:solid #400040;
+	border-radius:50%;
+	display:inline-block;
+	background-color:black;
+}
+
+.p{
+	position:absolute;
+	top:100%;
+}

@@ -1,0 +1,16 @@
+@charset "ISO-8859-1";
+body{
+	position:absolute;
+	top:30%;
+	left:28%;
+	font-size:46px;
+	color:red;
+	
+}
+a{
+	position:absolute;
+	top:79%;
+	left:30%;
+	text-decoration:none;
+	
+}

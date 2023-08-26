@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>DOCTORLOGIN</title>
+<link href="Doctor.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<form action="Doctorvalidation" method="post">
+<div class="l">
+<h3>Doctor Login</h3>
+</div>
+<div class="f">
+<label>ID</label><br>
+<input type = "number" placeholder="Enter your employee id" name="did" required><br><br>
+<label>Name</label><br>
+<input type ="text" placeholder ="Enter your name" name="dname" required><br><br>
+<label>Email id</label><br>
+<input type = "email" placeholder="Enter your mail id" name="mail" required><br><br>
+<button onclick="Doctorvalidation.java">Login</button><br><br>
+</div>
+</form>
+<form action="welcome.html">
+<button  onclick="welcome.html" class="cancel">Cancel</button>
+</form>
+<div class="c">
+<label >Don't have an account </label><a href="doctorreg.html">create one</a>
+</div>
+</body>
+</html>

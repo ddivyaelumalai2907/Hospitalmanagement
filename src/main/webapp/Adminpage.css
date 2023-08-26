@@ -1,0 +1,195 @@
+@charset "ISO-8859-1";
+body{
+	font-family:"Brush Script MT",cursive;
+}
+.f{
+	position :absolute;
+	top:17%;
+	left:15%;
+	height:22%;
+	width:17%;
+	box-shadow:0 0 5px 0;
+	background:inherit;
+	padding:2%;
+}
+
+button{
+	border:none;
+	color:#0080c0;
+	font-family:"Brush Script MT",cursive;
+}
+#i{
+	border-radius:50%;
+	position:absolute;
+	left:20%;
+}
+
+#a1{
+	position:absolute;
+	top:39%;
+	left:21%;
+}
+
+.f1{
+	position :absolute;
+	top:17%;
+	left:41%;
+	height:22%;
+	width:17%;
+	box-shadow:0 0 5px 0;
+	background:inherit;
+	padding:2%;
+}
+
+
+#i2{
+	border-radius:50%;
+	position:absolute;
+	left:22%;
+}
+
+#a2{
+	position:absolute;
+	top:39%;
+	left:47%;
+}
+
+.f2{
+	position :absolute;
+	top:17%;
+	left:69%;
+	height:22%;
+	width:17%;
+	box-shadow:0 0 5px 0;
+	background:inherit;
+	padding:2%;
+}
+
+
+#i3{
+	border-radius:50%;
+	position:absolute;
+	left:22%;
+}
+
+#a3{
+	position:absolute;
+	top:39%;
+	left:76%;
+}
+
+.f3{
+	position :absolute;
+	top:57%;
+	left:41%;
+	height:22%;
+	width:17%;
+	box-shadow:0 0 5px 0;
+	background:inherit;
+	padding:2%;
+}
+
+
+#i4{
+	border-radius:50%;
+	position:absolute;
+	left:22%;
+}
+
+#a4{
+	position:absolute;
+	top:79%;
+	left:49%;
+}
+
+a{
+	text-decoration:none;
+}
+
+.p1{
+	position :absolute;
+	top:57%;
+	left:40%;
+	height:22%;
+	width:17%;
+	box-shadow:0 0 5px 0;
+	background:inherit;
+	background-color:#808040;
+	color:black;
+	padding:5% 10%;
+}
+.p2{
+	position :absolute;
+	top:27%;
+	left:53%;
+	height:22%;
+	width:17%;
+	box-shadow:0 0 5px 0;
+	background:inherit;
+	background-color:#808040;
+	color:black;
+	padding:5%;
+}
+#pa1{
+	position:absolute;
+	top:30%;
+	left:28%;
+	font-size:20px;
+	
+}
+#pa2{
+	position:absolute;
+	top:30%;
+	left:30%;
+	font-size:20px;
+	
+}
+
+.rf{
+	position :absolute;
+	top:17%;
+	left:40%;
+	height:22%;
+	width:17%;
+	box-shadow:0 0 5px 0;
+	background:inherit;
+	padding:2%;
+}
+
+
+#r1{
+	border-radius:50%;
+	position:absolute;
+	left:23%;
+}
+
+#ar1{
+	position:absolute;
+	top:40%;
+	left:47%;
+}
+
+.fr2{
+	position :absolute;
+	top:57%;
+	left:40%;
+	height:22%;
+	width:17%;
+	box-shadow:0 0 5px 0;
+	background:inherit;
+	padding:2%;
+}
+
+
+#r2{
+	border-radius:50%;
+	position:absolute;
+	left:22%;
+}
+
+#ar2{
+	position:absolute;
+	top:79%;
+	left:47%;
+}
+

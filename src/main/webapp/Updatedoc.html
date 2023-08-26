@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Updatedoctor</title>
+<style>
+body{
+	
+	font-family:"Brush Script MT",cursive;
+}
+.f{
+	position :absolute;
+	top:17%;
+	left:32%;
+	height:22%;
+	width:17%;
+	box-shadow:0 0 5px 0;
+	background:inherit;
+	padding:7%;
+}
+#p1{
+    position:absolute;
+    top:10%;
+    left:3%;
+}
+#i{
+    position:absolute;
+    left:30%;
+}
+button{
+padding:10px 18px;
+	margin:8px 0;
+	border:none;
+	cursor:pointer;
+	width:30%;
+	background-color:#48873d;
+}
+
+.b{
+ position:absolute;
+ left:35%;
+ background-color:green;
+
+}
+.b1{
+ position:absolute;
+ top:80%;
+ left:35%;
+ 
+ background-color:red;
+}
+</style>
+</head>
+<body>
+<h3>Update Doctor!!</h3>
+<div class="f">
+<form action="Updatedoctor" method="post">
+<p id="p1">To conform please enter the id of specific doctor to delete</p><br>
+<label id="i">Enter Doctor ID:</label><br><br>
+<input id="i" type="text" name="did"><br><br>
+<button class="b" onclick="Updatedoctor.java">Delete</button>
+</form>
+<button class="b1"onclick="Adminpage.html">Cancel</button>
+</div>
+</body>
+
+</html>
